@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.menu-nav{
+    text-align: left;
+    padding: 5px;
+    }
+
+    .menu-nav a{
+        display: inline-block;
+        color: rgb(244, 67, 67);
+        text-decoration:overline;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    
+
+    .encabezado{
+        width: 100%;
+        background-image: 
+        linear-gradient(-225deg, rgba(58, 233, 230, 0.404) 0%,
+        rgba(109, 100, 224, 0.404) 56%, rgba(22, 17, 17, 0.438) 100%),
+        url("/img/luna.jpg");
+        background-attachment: fixed ;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+   
+    .box-textos{
+        padding-bottom: 100px;
+    }
+
+ h1{
+        font-size: 60px;
+        text-align: center;
+        color: #f2f2f2;
+    }
+
+    .subtitulo{
+        font-size: 24px;
+        padding: 20px 0;
+        font-weight: 300;
+        text-align: center;
+        color: #f2f2f2;
+    }
+
+    
+ 
+
+    .seccion-parrafo{
+        padding-top: 30px;
+        background-image: url(/img/banderaXela.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+    .titulo-seccion{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: #ce483c;
+        padding-bottom: 60px;
+    }
+
+   
+
+  .parrafos{
+       display: flex;
+       margin: 0;
+       padding: 0%;
+    }
+
+        .parrafo-subtitulo{
+        font-size: 20px;
+        color: #551a0a;
+        margin-bottom: 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .parrafo1{
+        text-align: center;
+        margin: 10px;
+   
+    }
+    .parrafo2{
+        text-align: center;
+        margin: 10px;
+   
+    }
+    .parrafo3{
+        text-align: center;
+        margin: 10px;        
+   
+    }
+    .parrafo4{
+        text-align: center;
+        margin: 10px;
+   
+    }
+    
+.carpeta{
+    background: #f6d9d9;
+    
+}
+
+.carpeta-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-box{
+    width: 31%;
+    height: 250px;
+    margin-bottom: 20px;
+    
+   
+}
+
+
+.imagen-box img{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+.video{
+    background-color: #a22828;
+    }
+.videoxela{
+    margin-left: 195px;
+}
+.titulo-seccion-video{
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.titulo-seccion-footer{
+    margin-top: 15px;
+    color: rgb(7, 13, 43);
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.subtitulo-footer{
+    margin-top: 15px;
+    color: rgb(239, 236, 244);
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer{
+    background: #5a0ff0;
+    position: relative;
+}
+
+.redes-sociales{
+    padding-top: var(--marginElementos);
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.redes-sociales{
+    font-size: 80px;
+    color: rgb(243, 196, 131);
+}
+
+
